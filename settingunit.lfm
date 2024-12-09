@@ -1,0 +1,184 @@
+object SettingForm: TSettingForm
+  Left = 351
+  Height = 430
+  Top = 32
+  Width = 660
+  Caption = 'SettingForm'
+  ClientHeight = 430
+  ClientWidth = 660
+  DesignTimePPI = 120
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Visible = True
+  object SettingTabControl: TPageControl
+    Left = 16
+    Height = 344
+    Top = 24
+    Width = 626
+    ActivePage = UiSetting
+    TabIndex = 0
+    TabOrder = 0
+    object UiSetting: TTabSheet
+      Caption = '界面设置'
+      ClientHeight = 311
+      ClientWidth = 618
+      object UiPanel: TPanel
+        Left = 0
+        Height = 312
+        Top = 0
+        Width = 624
+        ClientHeight = 312
+        ClientWidth = 624
+        TabOrder = 0
+        object MoveUpButton: TSpeedButton
+          AnchorSideRight.Side = asrBottom
+          AnchorSideBottom.Side = asrBottom
+          Left = 567
+          Height = 31
+          Top = 95
+          Width = 31
+          Anchors = [akRight]
+          BorderSpacing.Around = 8
+          ShowHint = True
+          ParentShowHint = False
+        end
+        object MoveDownButton: TSpeedButton
+          AnchorSideLeft.Side = asrCenter
+          AnchorSideTop.Control = MoveUpButton
+          AnchorSideTop.Side = asrBottom
+          AnchorSideRight.Control = MoveUpButton
+          AnchorSideRight.Side = asrBottom
+          AnchorSideBottom.Side = asrBottom
+          Left = 567
+          Height = 31
+          Top = 137
+          Width = 31
+          Anchors = [akTop, akRight]
+          BorderSpacing.Top = 11
+          ShowHint = True
+          ParentShowHint = False
+        end
+        object AddButton: TBitBtn
+          AnchorSideLeft.Side = asrBottom
+          AnchorSideBottom.Side = asrBottom
+          Left = 8
+          Height = 30
+          Top = 272
+          Width = 106
+          Anchors = [akLeft, akBottom]
+          AutoSize = True
+          BorderSpacing.Around = 8
+          Caption = 'AddButton'
+          Enabled = False
+          ParentShowHint = False
+          ShowHint = True
+          TabOrder = 0
+        end
+        object DeleteButton: TBitBtn
+          AnchorSideLeft.Control = AddButton
+          AnchorSideLeft.Side = asrBottom
+          AnchorSideBottom.Side = asrBottom
+          Left = 122
+          Height = 30
+          Top = 272
+          Width = 123
+          Anchors = [akLeft, akBottom]
+          AutoSize = True
+          BorderSpacing.Around = 8
+          Caption = 'DeleteButton'
+          Enabled = False
+          ParentShowHint = False
+          ShowHint = True
+          TabOrder = 1
+        end
+        object PathListBox: TListBox
+          AnchorSideRight.Control = MoveUpButton
+          Left = 8
+          Height = 224
+          Top = 8
+          Width = 551
+          Anchors = [akTop, akLeft, akRight, akBottom]
+          BorderSpacing.Left = 8
+          BorderSpacing.Top = 8
+          BorderSpacing.Right = 8
+          BorderSpacing.Bottom = 8
+          ItemHeight = 0
+          ScrollWidth = 511
+          Style = lbOwnerDrawFixed
+          TabOrder = 2
+        end
+        object DirectoryEdit: TShortPathEdit
+          AnchorSideLeft.Control = PathListBox
+          AnchorSideRight.Control = PathListBox
+          AnchorSideRight.Side = asrBottom
+          Left = 8
+          Height = 28
+          Top = 240
+          Width = 551
+          ShowHidden = False
+          ButtonWidth = 31
+          NumGlyphs = 1
+          Anchors = [akLeft, akRight, akBottom]
+          MaxLength = 0
+          TabOrder = 3
+          OnChange = DirectoryEditChange
+        end
+      end
+    end
+    object WatchSetting: TTabSheet
+      Caption = '监听目录'
+    end
+    object OtherSetting: TTabSheet
+      Caption = '其他设置'
+    end
+  end
+  object SumbitBtn: TButton
+    Left = 440
+    Height = 31
+    Top = 380
+    Width = 94
+    Caption = '确定'
+    TabOrder = 1
+  end
+  object CancelBtn: TButton
+    Left = 544
+    Height = 31
+    Top = 380
+    Width = 94
+    Caption = '取消'
+    TabOrder = 2
+    OnClick = CancelBtnClick
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 197
+    Top = 159
+    object CopyMenuItem: TMenuItem
+      Caption = 'Copy All'
+    end
+    object PasteMenuItem: TMenuItem
+      Caption = 'Paste'
+    end
+    object SeparMenuItem: TMenuItem
+      Caption = '-'
+    end
+    object ExportMenuItem: TMenuItem
+      Caption = 'Export to file'
+    end
+    object ImportMenuItem: TMenuItem
+      Caption = 'Import from file'
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 334
+    Top = 159
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 472
+    Top = 159
+  end
+  object BrowseDialog: TSelectDirectoryDialog
+    Options = [ofFileMustExist, ofEnableSizing, ofViewDetail]
+    Left = 472
+    Top = 97
+  end
+end

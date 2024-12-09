@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="launcher.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="5" Y="22"/>
+        <UsageCount Value="64"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mainunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MainUnit"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="67"/>
+        <CursorPos X="16" Y="93"/>
+        <UsageCount Value="64"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="traymanagerunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TrayManager"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="TrayManagerUnit"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="25"/>
+        <CursorPos X="6" Y="47"/>
+        <UsageCount Value="63"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="settingunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SettingForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="SettingUnit"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="42"/>
+        <CursorPos X="10" Y="77"/>
+        <UsageCount Value="62"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="appitem.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AppItem"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="AppItem"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="8"/>
+        <CursorPos X="22" Y="36"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="trayuint.pas"/>
+        <ComponentName Value="TrayForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="TrayUint"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="16"/>
+      </Unit>
+      <Unit>
+        <Filename Value="traymanager.pas"/>
+        <ComponentName Value="TrayManager"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="TrayManager"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="5" Y="22"/>
+        <UsageCount Value="16"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mainunit.lfm"/>
+        <HasResources Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="42" Y="11"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="datamodule1.pas"/>
+        <ComponentName Value="DataModule1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="DataModule1"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="10" Y="5"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="traymanager.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2374"/>
+        <CursorPos Y="2393"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="41"/>
+        <CursorPos X="5" Y="61"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4650"/>
+        <CursorPos X="30" Y="1843"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="3989"/>
+        <CursorPos Y="4009"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="myusercontrol.pas"/>
+        <ComponentName Value="MyUserControl"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="MyUserControl"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="27"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Lazarus\lcl\include\picture.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="399"/>
+        <CursorPos Y="419"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="802"/>
+        <CursorPos X="27" Y="847"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Lazarus\components\lazutils\laz_avl_tree.pp"/>
+        <UnitName Value="Laz_AVL_Tree"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="610"/>
+        <CursorPos Y="630"/>
+        <UsageCount Value="12"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Lazarus\ide\encloseifdef.lfm"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="28" Y="6"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Lazarus\ide\exttooldialog.pas"/>
+        <ComponentName Value="ExternalToolDialog"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ExtToolDialog"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Lazarus\converter\lazxmlforms.pas"/>
+        <UnitName Value="LazXMLForms"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="51" Column="5" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="50" Column="5" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="49" Column="5" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="48" Column="5" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="59" Column="27" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="60" Column="27" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="61" Column="27" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="62" Column="27" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="63" Column="27" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="62" Column="27" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="61" Column="27" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="60" Column="27" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="59" Column="27" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="58" Column="27" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="57" Column="27" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="56" Column="27" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="55" Column="27" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="54" Column="27" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="55" Column="27" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="56" Column="7" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="57" Column="7" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="58" Column="7" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="59" Column="7" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="60" Column="7" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="61" Column="7" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="62" Column="7" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="68" Column="7" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="69" Column="7" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="70" Column="7" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="settingunit.pas"/>
+        <Caret Line="72" Column="7" TopLine="36"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

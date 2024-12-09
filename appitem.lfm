@@ -1,0 +1,30 @@
+object AppItem: TAppItem
+  Left = 0
+  Height = 160
+  Top = 0
+  Width = 125
+  ClientHeight = 160
+  ClientWidth = 125
+  DesignTimePPI = 120
+  ParentFont = False
+  TabOrder = 0
+  DesignLeft = 492
+  DesignTop = 32
+  object AppIcon: TImage
+    Left = 8
+    Height = 110
+    Top = 8
+    Width = 110
+    Center = True
+  end
+  object AppName: TLabel
+    Left = 16
+    Height = 24
+    Top = 128
+    Width = 89
+    Alignment = taCenter
+    Caption = 'AppName'
+    Font.Height = -18
+    ParentFont = False
+  end
+end

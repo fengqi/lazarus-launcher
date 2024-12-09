@@ -1,0 +1,9 @@
+object TrayForm: TTrayForm
+  Left = 1092
+  Height = 240
+  Top = 464
+  Width = 320
+  Caption = 'TrayForm'
+  DesignTimePPI = 120
+  LCLVersion = '3.6.0.0'
+end
