@@ -8,8 +8,9 @@
       <Unit>
         <Filename Value="launcher.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="5" Y="22"/>
-        <UsageCount Value="64"/>
+        <TopLine Value="4"/>
+        <CursorPos X="53" Y="26"/>
+        <UsageCount Value="65"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -20,9 +21,9 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MainUnit"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="67"/>
-        <CursorPos X="16" Y="93"/>
-        <UsageCount Value="64"/>
+        <TopLine Value="51"/>
+        <CursorPos X="31" Y="63"/>
+        <UsageCount Value="65"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -33,10 +34,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="TrayManagerUnit"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="25"/>
-        <CursorPos X="6" Y="47"/>
-        <UsageCount Value="63"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="7"/>
+        <CursorPos X="5" Y="38"/>
+        <UsageCount Value="64"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -47,11 +48,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="SettingUnit"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="4"/>
-        <TopLine Value="42"/>
-        <CursorPos X="10" Y="77"/>
-        <UsageCount Value="62"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="53"/>
+        <CursorPos X="10" Y="60"/>
+        <UsageCount Value="63"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -62,10 +62,25 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="AppItem"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="18"/>
+        <CursorPos X="58" Y="24"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="appmanagerunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AppManager"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="AppManagerUnit"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="8"/>
-        <CursorPos X="22" Y="36"/>
-        <UsageCount Value="41"/>
+        <TopLine Value="23"/>
+        <CursorPos X="14" Y="43"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -137,11 +152,10 @@
       </Unit>
       <Unit>
         <Filename Value="C:\Lazarus\lcl\include\control.inc"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="3989"/>
         <CursorPos Y="4009"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="myusercontrol.pas"/>
@@ -202,123 +216,123 @@
     <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="settingunit.pas"/>
-        <Caret Line="51" Column="5" TopLine="28"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="50" Column="5" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="49" Column="5" TopLine="26"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="48" Column="5" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="59" Column="27" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="60" Column="27" TopLine="26"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="61" Column="27" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="62" Column="27" TopLine="28"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="63" Column="27" TopLine="29"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="62" Column="27" TopLine="28"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="61" Column="27" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="60" Column="27" TopLine="26"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="59" Column="27" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="58" Column="27" TopLine="24"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="57" Column="27" TopLine="23"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="56" Column="27" TopLine="22"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="55" Column="27" TopLine="21"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="54" Column="27" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="55" Column="27" TopLine="21"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="56" Column="7" TopLine="21"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="57" Column="7" TopLine="22"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="58" Column="7" TopLine="23"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="59" Column="7" TopLine="24"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="60" Column="7" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="61" Column="7" TopLine="26"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="62" Column="7" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="68" Column="7" TopLine="33"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="69" Column="7" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
         <Caret Line="70" Column="7" TopLine="35"/>
       </Position>
       <Position>
         <Filename Value="settingunit.pas"/>
         <Caret Line="72" Column="7" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="10" Column="44" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="63" Column="32" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="17" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="31" Column="15" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="29" Column="22" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="30" Column="23" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="37" Column="50" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="30" Column="23" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="21" Column="65" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="63" Column="28" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="48" Column="20" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="45" Column="11" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="8" Column="29"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="63" Column="20" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="26" Column="50" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="launcher.lpr"/>
+        <Caret Line="27" Column="34" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="63" Column="5" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="8" Column="12" TopLine="99"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="112" Column="14" TopLine="97"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="19" Column="9" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="63" Column="20" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="108" Column="7" TopLine="99"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="63" Column="20" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="65" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="8" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="63" Column="5" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="20" Column="9" TopLine="3"/>
       </Position>
     </JumpHistory>
     <RunParams>

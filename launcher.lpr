@@ -10,7 +10,8 @@ uses
     athreads,
     {$ENDIF}
     Interfaces, // this includes the LCL widgetset
-    Forms, lazcontrols, MainUnit, TrayManagerUnit, SettingUnit, AppItem
+    Forms, lazcontrols, MainUnit, TrayManagerUnit, SettingUnit, AppItem,
+AppManagerUnit
     { you can add units after this };
 
 {$R *.res}
@@ -19,11 +20,11 @@ begin
     RequireDerivedFormResource:=True;
     Application.Scaled:=True;
     Application.Initialize;
-    Application.ShowMainForm := False;
+    //Application.ShowMainForm := False;
     Application.CreateForm(TMainForm, MainForm);
     Application.CreateForm(TSettingForm, SettingForm);
     Application.CreateForm(TTrayManager, TrayManager);
-
+    Application.CreateForm(TAppManager, AppManager);
     Application.Run;
 end.
 

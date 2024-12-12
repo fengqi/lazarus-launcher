@@ -1,20 +1,20 @@
 object SettingForm: TSettingForm
   Left = 351
-  Height = 430
+  Height = 344
   Top = 32
-  Width = 660
+  Width = 528
   Caption = 'SettingForm'
-  ClientHeight = 430
-  ClientWidth = 660
-  DesignTimePPI = 120
+  ClientHeight = 344
+  ClientWidth = 528
   OnClose = FormClose
   OnCreate = FormCreate
+  LCLVersion = '3.7.0.0'
   Visible = True
   object SettingTabControl: TPageControl
-    Left = 16
-    Height = 344
-    Top = 24
-    Width = 626
+    Left = 13
+    Height = 275
+    Top = 19
+    Width = 501
     ActivePage = UiSetting
     TabIndex = 0
     TabOrder = 0
@@ -24,21 +24,21 @@ object SettingForm: TSettingForm
       ClientWidth = 618
       object UiPanel: TPanel
         Left = 0
-        Height = 312
+        Height = 250
         Top = 0
-        Width = 624
-        ClientHeight = 312
-        ClientWidth = 624
+        Width = 499
+        ClientHeight = 250
+        ClientWidth = 499
         TabOrder = 0
         object MoveUpButton: TSpeedButton
           AnchorSideRight.Side = asrBottom
           AnchorSideBottom.Side = asrBottom
-          Left = 567
-          Height = 31
+          Left = 578
+          Height = 25
           Top = 95
-          Width = 31
+          Width = 25
           Anchors = [akRight]
-          BorderSpacing.Around = 8
+          BorderSpacing.Around = 6
           ShowHint = True
           ParentShowHint = False
         end
@@ -49,25 +49,25 @@ object SettingForm: TSettingForm
           AnchorSideRight.Control = MoveUpButton
           AnchorSideRight.Side = asrBottom
           AnchorSideBottom.Side = asrBottom
-          Left = 567
-          Height = 31
-          Top = 137
-          Width = 31
+          Left = 573
+          Height = 25
+          Top = 110
+          Width = 25
           Anchors = [akTop, akRight]
-          BorderSpacing.Top = 11
+          BorderSpacing.Top = 9
           ShowHint = True
           ParentShowHint = False
         end
         object AddButton: TBitBtn
           AnchorSideLeft.Side = asrBottom
           AnchorSideBottom.Side = asrBottom
-          Left = 8
+          Left = 6
           Height = 30
-          Top = 272
+          Top = 274
           Width = 106
           Anchors = [akLeft, akBottom]
           AutoSize = True
-          BorderSpacing.Around = 8
+          BorderSpacing.Around = 6
           Caption = 'AddButton'
           Enabled = False
           ParentShowHint = False
@@ -78,13 +78,13 @@ object SettingForm: TSettingForm
           AnchorSideLeft.Control = AddButton
           AnchorSideLeft.Side = asrBottom
           AnchorSideBottom.Side = asrBottom
-          Left = 122
+          Left = 98
           Height = 30
-          Top = 272
+          Top = 274
           Width = 123
           Anchors = [akLeft, akBottom]
           AutoSize = True
-          BorderSpacing.Around = 8
+          BorderSpacing.Around = 6
           Caption = 'DeleteButton'
           Enabled = False
           ParentShowHint = False
@@ -93,15 +93,15 @@ object SettingForm: TSettingForm
         end
         object PathListBox: TListBox
           AnchorSideRight.Control = MoveUpButton
-          Left = 8
-          Height = 224
-          Top = 8
+          Left = 6
+          Height = 242
+          Top = 6
           Width = 551
           Anchors = [akTop, akLeft, akRight, akBottom]
-          BorderSpacing.Left = 8
-          BorderSpacing.Top = 8
-          BorderSpacing.Right = 8
-          BorderSpacing.Bottom = 8
+          BorderSpacing.Left = 6
+          BorderSpacing.Top = 6
+          BorderSpacing.Right = 6
+          BorderSpacing.Bottom = 6
           ItemHeight = 0
           ScrollWidth = 511
           Style = lbOwnerDrawFixed
@@ -111,12 +111,12 @@ object SettingForm: TSettingForm
           AnchorSideLeft.Control = PathListBox
           AnchorSideRight.Control = PathListBox
           AnchorSideRight.Side = asrBottom
-          Left = 8
+          Left = 6
           Height = 28
-          Top = 240
+          Top = 249
           Width = 551
           ShowHidden = False
-          ButtonWidth = 31
+          ButtonWidth = 25
           NumGlyphs = 1
           Anchors = [akLeft, akRight, akBottom]
           MaxLength = 0
@@ -133,25 +133,25 @@ object SettingForm: TSettingForm
     end
   end
   object SumbitBtn: TButton
-    Left = 440
-    Height = 31
-    Top = 380
-    Width = 94
+    Left = 352
+    Height = 25
+    Top = 304
+    Width = 75
     Caption = '确定'
     TabOrder = 1
   end
   object CancelBtn: TButton
-    Left = 544
-    Height = 31
-    Top = 380
-    Width = 94
+    Left = 435
+    Height = 25
+    Top = 304
+    Width = 75
     Caption = '取消'
     TabOrder = 2
     OnClick = CancelBtnClick
   end
   object PopupMenu1: TPopupMenu
-    Left = 197
-    Top = 159
+    Left = 158
+    Top = 127
     object CopyMenuItem: TMenuItem
       Caption = 'Copy All'
     end
@@ -169,16 +169,16 @@ object SettingForm: TSettingForm
     end
   end
   object OpenDialog1: TOpenDialog
-    Left = 334
-    Top = 159
+    Left = 267
+    Top = 127
   end
   object SaveDialog1: TSaveDialog
-    Left = 472
-    Top = 159
+    Left = 378
+    Top = 127
   end
   object BrowseDialog: TSelectDirectoryDialog
     Options = [ofFileMustExist, ofEnableSizing, ofViewDetail]
-    Left = 472
-    Top = 97
+    Left = 378
+    Top = 78
   end
 end

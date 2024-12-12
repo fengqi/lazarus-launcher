@@ -1,0 +1,13 @@
+object AppManager: TAppManager
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 150
+  HorizontalOffset = 329
+  VerticalOffset = 553
+  Width = 150
+  object SelectApp: TOpenDialog
+    OnSelectionChange = SelectAppSelectionChange
+    Left = 62
+    Top = 56
+  end
+end

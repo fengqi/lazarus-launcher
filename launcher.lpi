@@ -75,6 +75,13 @@
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="AppItem"/>
       </Unit>
+      <Unit>
+        <Filename Value="appmanagerunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AppManager"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="d"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

@@ -5,7 +5,7 @@ unit MainUnit;
 interface
 
 uses
-    AppItem,
+    AppItem, AppManagerUnit,
     Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, StdCtrls,
     MaskEdit;
 
@@ -21,6 +21,7 @@ type
         SearchInput: TEdit;
         SearchTimer: TTimer;
         TopPanel: TPanel;
+        procedure AddBtnClick(Sender: TObject);
         procedure CloseBtnClick(Sender: TObject);
         procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
         procedure FormCreate(Sender: TObject);
@@ -57,11 +58,17 @@ begin
      Application.Terminate;
 end;
 
+procedure TMainForm.AddBtnClick(Sender: TObject);
+begin
+    AppManager.ShowOpenDialog;
+end;
+
 procedure TMainForm.FormCreate(Sender: TObject);
 begin
      //Self.Left := Screen.WorkAreaWidth - Self.Width - 15;  // 右侧
      //Self.Top := Screen.WorkAreaHeight - Self.Height - 45; // 底部
      //Self.BorderStyle:=bsToolWindow; // 边框
+     Self.Position := poScreenCenter;
 
      Self.AddControlsToFlowPanel;
 end;
@@ -98,7 +105,7 @@ var
     pic: TPicture;
 begin
     pic := TPicture.create;
-    pic.LoadFromFile(GetCurrentDir + '\imgs\immich.png');
+    //pic.LoadFromFile(GetCurrentDir + '/imgs/immich.png');
 
     for i := 1 to 10 do
     begin

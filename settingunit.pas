@@ -56,7 +56,8 @@ implementation
 
 procedure TSettingForm.FormCreate(Sender: TObject);
 begin
-    Self.Position := poScreenCenter;
+    //Self.Position := poScreenCenter;
+    Hide;
 end;
 
 procedure TSettingForm.FormClose(Sender: TObject; var CloseAction: TCloseAction
