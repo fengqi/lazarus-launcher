@@ -10,7 +10,7 @@
         <IsPartOfProject Value="True"/>
         <TopLine Value="4"/>
         <CursorPos X="53" Y="26"/>
-        <UsageCount Value="65"/>
+        <UsageCount Value="71"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -22,8 +22,8 @@
         <UnitName Value="MainUnit"/>
         <EditorIndex Value="1"/>
         <TopLine Value="51"/>
-        <CursorPos X="31" Y="63"/>
-        <UsageCount Value="65"/>
+        <CursorPos Y="63"/>
+        <UsageCount Value="71"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -34,10 +34,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="TrayManagerUnit"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="6"/>
         <TopLine Value="7"/>
         <CursorPos X="5" Y="38"/>
-        <UsageCount Value="64"/>
+        <UsageCount Value="70"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -48,10 +48,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="SettingUnit"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="7"/>
         <TopLine Value="53"/>
         <CursorPos X="10" Y="60"/>
-        <UsageCount Value="63"/>
+        <UsageCount Value="69"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -62,10 +62,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="AppItem"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="18"/>
-        <CursorPos X="58" Y="24"/>
-        <UsageCount Value="42"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="15"/>
+        <CursorPos X="6" Y="41"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -78,9 +78,9 @@
         <UnitName Value="AppManagerUnit"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="23"/>
-        <CursorPos X="14" Y="43"/>
-        <UsageCount Value="21"/>
+        <TopLine Value="86"/>
+        <CursorPos X="43" Y="97"/>
+        <UsageCount Value="27"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -91,7 +91,7 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="TrayUint"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="16"/>
+        <UsageCount Value="15"/>
       </Unit>
       <Unit>
         <Filename Value="traymanager.pas"/>
@@ -101,14 +101,14 @@
         <UnitName Value="TrayManager"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="5" Y="22"/>
-        <UsageCount Value="16"/>
+        <UsageCount Value="15"/>
       </Unit>
       <Unit>
         <Filename Value="mainunit.lfm"/>
         <HasResources Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="42" Y="11"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="5"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -119,12 +119,12 @@
         <UnitName Value="DataModule1"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="10" Y="5"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="traymanager.lfm"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="5"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -132,7 +132,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="2374"/>
         <CursorPos Y="2393"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\Lazarus\lcl\forms.pp"/>
@@ -140,7 +140,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="41"/>
         <CursorPos X="5" Y="61"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="C:\Lazarus\lcl\controls.pp"/>
@@ -148,14 +148,14 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="4650"/>
         <CursorPos X="30" Y="1843"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="C:\Lazarus\lcl\include\control.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="3989"/>
         <CursorPos Y="4009"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="myusercontrol.pas"/>
@@ -165,14 +165,14 @@
         <UnitName Value="MyUserControl"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="27"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="22"/>
       </Unit>
       <Unit>
         <Filename Value="C:\Lazarus\lcl\include\picture.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="399"/>
         <CursorPos Y="419"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\Lazarus\lcl\graphics.pp"/>
@@ -180,7 +180,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="802"/>
         <CursorPos X="27" Y="847"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\Lazarus\components\lazutils\laz_avl_tree.pp"/>
@@ -188,13 +188,13 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="610"/>
         <CursorPos Y="630"/>
-        <UsageCount Value="12"/>
+        <UsageCount Value="11"/>
       </Unit>
       <Unit>
         <Filename Value="C:\Lazarus\ide\encloseifdef.lfm"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="28" Y="6"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -204,135 +204,174 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ExtToolDialog"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\Lazarus\converter\lazxmlforms.pas"/>
         <UnitName Value="LazXMLForms"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\Applications\Lazarus\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="111"/>
+        <CursorPos X="14" Y="119"/>
+        <UsageCount Value="12"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\share\fpcsrc\rtl\objpas\sysutils\finah.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="10" Y="25"/>
+        <UsageCount Value="12"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\share\fpcsrc\packages\fcl-db\src\base\bufdataset.pas"/>
+        <UnitName Value="BufDataset"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="627"/>
+        <CursorPos X="20" Y="638"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\share\fpcsrc\rtl\objpas\sysutils\osutilsh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="46"/>
+        <CursorPos X="10" Y="28"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\..\usr\local\share\fpcsrc\packages\fcl-db\src\base\db.pas"/>
+        <UnitName Value="DB"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="1677"/>
+        <CursorPos X="15" Y="1687"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
       <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="70" Column="7" TopLine="35"/>
-      </Position>
-      <Position>
-        <Filename Value="settingunit.pas"/>
-        <Caret Line="72" Column="7" TopLine="36"/>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="83" Column="85" TopLine="72"/>
       </Position>
       <Position>
         <Filename Value="appmanagerunit.pas"/>
-        <Caret Line="10" Column="44" TopLine="3"/>
+        <Caret Line="93" Column="5" TopLine="82"/>
       </Position>
       <Position>
         <Filename Value="appmanagerunit.pas"/>
-        <Caret Column="20"/>
+        <Caret Line="82" Column="15" TopLine="72"/>
       </Position>
       <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="63" Column="32" TopLine="54"/>
-      </Position>
-      <Position>
-        <Filename Value="appmanagerunit.pas"/>
-        <Caret Line="17" TopLine="3"/>
+        <Filename Value="..\..\..\..\..\usr\local\share\fpcsrc\packages\fcl-db\src\base\bufdataset.pas"/>
+        <Caret Line="620" Column="15" TopLine="608"/>
       </Position>
       <Position>
         <Filename Value="appmanagerunit.pas"/>
-        <Caret Line="31" Column="15" TopLine="14"/>
+        <Caret Line="97" Column="29" TopLine="95"/>
       </Position>
       <Position>
         <Filename Value="appmanagerunit.pas"/>
-        <Caret Line="29" Column="22" TopLine="11"/>
+        <Caret Line="131" Column="44" TopLine="60"/>
       </Position>
       <Position>
         <Filename Value="appmanagerunit.pas"/>
-        <Caret Line="30" Column="23" TopLine="11"/>
+        <Caret Line="119" Column="32" TopLine="116"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="63" TopLine="51"/>
       </Position>
       <Position>
         <Filename Value="appmanagerunit.pas"/>
-        <Caret Line="37" Column="50" TopLine="17"/>
+        <Caret Line="124" Column="18" TopLine="93"/>
       </Position>
       <Position>
         <Filename Value="appmanagerunit.pas"/>
-        <Caret Line="30" Column="23" TopLine="17"/>
+        <Caret Line="71" TopLine="54"/>
       </Position>
       <Position>
         <Filename Value="appmanagerunit.pas"/>
-        <Caret Line="21" Column="65" TopLine="19"/>
-      </Position>
-      <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="63" Column="28" TopLine="51"/>
-      </Position>
-      <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="48" Column="20" TopLine="37"/>
-      </Position>
-      <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="45" Column="11" TopLine="45"/>
-      </Position>
-      <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="8" Column="29"/>
-      </Position>
-      <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="63" Column="20" TopLine="51"/>
-      </Position>
-      <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="26" Column="50" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="launcher.lpr"/>
-        <Caret Line="27" Column="34" TopLine="4"/>
-      </Position>
-      <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="63" Column="5" TopLine="51"/>
-      </Position>
-      <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="8" Column="12" TopLine="99"/>
-      </Position>
-      <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="112" Column="14" TopLine="97"/>
+        <Caret Line="84" Column="3" TopLine="63"/>
       </Position>
       <Position>
         <Filename Value="appmanagerunit.pas"/>
-        <Caret Line="19" Column="9" TopLine="3"/>
-      </Position>
-      <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="63" Column="20" TopLine="51"/>
-      </Position>
-      <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="108" Column="7" TopLine="99"/>
-      </Position>
-      <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="63" Column="20" TopLine="51"/>
-      </Position>
-      <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="65" TopLine="51"/>
-      </Position>
-      <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="8" Column="12"/>
-      </Position>
-      <Position>
-        <Filename Value="mainunit.pas"/>
-        <Caret Line="63" Column="5" TopLine="51"/>
+        <Caret Line="122" Column="18" TopLine="25"/>
       </Position>
       <Position>
         <Filename Value="appmanagerunit.pas"/>
-        <Caret Line="20" Column="9" TopLine="3"/>
+        <Caret Line="125" Column="19" TopLine="108"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="122" Column="23" TopLine="110"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="17" Column="41"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="123" Column="21" TopLine="111"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="122" Column="54" TopLine="110"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="20" Column="29" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="26" Column="52" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="122" Column="53" TopLine="110"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="50" Column="7" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="124" TopLine="113"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="66" Column="40" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="120" Column="19" TopLine="108"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="131" TopLine="113"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="130" Column="8" TopLine="118"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="69" Column="17" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="99" Column="15" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="124" Column="20" TopLine="114"/>
+      </Position>
+      <Position>
+        <Filename Value="appmanagerunit.pas"/>
+        <Caret Line="123" Column="5" TopLine="109"/>
       </Position>
     </JumpHistory>
     <RunParams>

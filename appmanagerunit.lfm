@@ -1,5 +1,6 @@
 object AppManager: TAppManager
   OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
   OldCreateOrder = False
   Height = 150
   HorizontalOffset = 329
@@ -7,7 +8,14 @@ object AppManager: TAppManager
   Width = 150
   object SelectApp: TOpenDialog
     OnSelectionChange = SelectAppSelectionChange
-    Left = 62
-    Top = 56
+    Left = 24
+    Top = 24
+  end
+  object AppList: TBufDataset
+    FieldDefs = <>
+    AfterInsert = AppListAfterInsert
+    AfterPost = AppListAfterPost
+    Left = 88
+    Top = 24
   end
 end

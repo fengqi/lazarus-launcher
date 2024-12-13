@@ -79,8 +79,9 @@
         <Filename Value="appmanagerunit.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="AppManager"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
-        <UnitName Value="d"/>
+        <UnitName Value="AppManagerUnit"/>
       </Unit>
     </Units>
   </ProjectOptions>
